@@ -3,17 +3,25 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/party"
+        android:scaleType="centerCrop"
+        android:background=""/>
+
     <TextView android:text="Happy Birthday Alex!" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
         android:textSize="36dp"/>
 
     <TextView android:text="From Paulina!" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
         android:textSize="36dp"/>
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/party"/>
+
 </RelativeLayout>
