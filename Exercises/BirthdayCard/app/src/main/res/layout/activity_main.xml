@@ -4,10 +4,14 @@
     tools:context=".MainActivity">
 
     <TextView android:text="Happy Birthday Alex!" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textSize="36dp"/>
 
     <TextView android:text="From Paulina!" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="36dp"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
