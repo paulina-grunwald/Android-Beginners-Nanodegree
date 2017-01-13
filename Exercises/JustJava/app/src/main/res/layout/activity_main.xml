@@ -1,27 +1,39 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:background="@android:color/white">
 
-    <TextView android:text="Quantity" android:layout_width="wrap_content"
-        android:id="@+id/quantity"
+    <TextView
+        android:text="Quantity"
+        android:layout_width="wrap_content"
+        android:id="@+id/quantity_text_view"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:fontFamily="sans-serif-light"
         android:textColor="@android:color/black"
-        android:textSize="25dp"/>
+        android:textSize="16sp"
+        android:textAllCaps="true"
+        android:layout_marginBottom="16dp"/>
 
-    <TextView android:text="0" android:layout_width="wrap_content"
+    <TextView
+        android:text="0"
+
+        android:paddingBottom="16dp"
+        android:layout_width="wrap_content"
         android:id="@+id/zero"
         android:layout_height="wrap_content"
-        android:la
         android:fontFamily="sans-serif-light"
         android:textColor="@android:color/black"
-        android:textSize="25dp"/>
+        android:textSize="16sp"/>
 
     <Button
+        android:paddingTop="16dp"
         android:id="@+id/next_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
