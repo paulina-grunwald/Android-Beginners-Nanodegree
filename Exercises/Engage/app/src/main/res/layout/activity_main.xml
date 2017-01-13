@@ -4,33 +4,61 @@
     tools:context=".MainActivity"
     android:background="@android:color/black">
 
-    <TextView android:text="MAKE IT SO!" android:layout_width="wrap_content"
+    <TextView android:text="ENGAGE IN LEARNING ANDROID!" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textColor="@android:color/white"
+        android:paddingTop="120dp"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+
+    <TextView android:text="MAKE IT SO!"
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:fontFamily="sans-serif-light"
         android:textColor="@android:color/white"
-        android:textSize="36dp"/>
+        android:paddingBottom="50dp"
+        android:textSize="50dp"/>
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/picard"
-        android:paddingTop="150dp"
+        android:paddingTop="250dp"
         android:scaleType="fitStart"/>
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/startrek"
-        android:paddingTop="150dp"
-        android:scaleType="fitCenter"/>
-
-    <TextView android:text="ENGAGE IN LEARNING ANDROID!" android:layout_width="wrap_content"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-light"
-        android:textColor="@android:color/white"
-        android:padding="16dp"
-        android:textSize="36dp"
-        android:textAlignment="center"/>
+        android:adjustViewBounds="true"
+        android:maxWidth="110dp"
+        android:maxHeight="110dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="3dp"
+        android:src="@drawable/startrek"/>
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="120dp"
+        android:maxHeight="120dp"
+        android:layout_alignParentRight="true"
+        android:padding="10dp"
+        android:layout_marginRight="3dp"
+        android:src="@drawable/android"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="50dp"
+        android:maxHeight="50dp"
+        android:layout_alignBottom="@+id/text2"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:src="@drawable/udacity"/>
 
 </RelativeLayout>
